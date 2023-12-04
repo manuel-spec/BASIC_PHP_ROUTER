@@ -17,7 +17,7 @@ switch ($request) {
         break;
 
     case '/about':
-        require __DIR__ . '/views/aboutus.php';
+        require __DIR__ . '/views/about.php';
         break;
 
     default:
