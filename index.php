@@ -1,6 +1,13 @@
 <?php
 
-$request = $_SERVER['REQUEST_URI'];
+use Core\Router;
+
+class Index
+{
+    public  $request = $_SERVER['REQUEST_URI'];
+    public $router = new Router();
+}
+
 
 switch ($request) {
 

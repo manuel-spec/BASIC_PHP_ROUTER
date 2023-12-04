@@ -1,0 +1,15 @@
+{
+    "name": "amani/basic_php_router",
+    "authors": [
+        {
+            "name": "manuel-spec",
+            "email": "amaniase084@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core"
+        }
+    }
+}
