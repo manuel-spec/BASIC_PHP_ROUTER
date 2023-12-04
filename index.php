@@ -14,7 +14,8 @@ class Index
 
     public function route()
     {
-        $this->router->get($this->request, "Controller");
+        $this->router->get($this->request, "routeController.php");
+        $this->router->route("/");
     }
 }
 
