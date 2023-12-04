@@ -4,9 +4,13 @@ namespace Core;
 
 class Router
 {
-    public function get($uri)
+    public $routes = [];
+    public function get($uri, $controller)
     {
-        if ($uri == "/") {
-        }
+        $this->routes = [
+            'uri' => $uri,
+            'controller' => $controller,
+            'method' => "GET"
+        ];
     }
 }
